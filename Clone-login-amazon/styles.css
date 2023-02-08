@@ -1,0 +1,107 @@
+.login {
+    text-align: center;
+}
+
+fieldset {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h1 {
+    margin-left: -507px;
+    font-size: 45px;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0179d9;
+    margin-left: 10px;
+}
+
+.text-email {
+    margin-top: -40px;
+    margin-left: -420px;
+    margin-bottom: -30px;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="email"] {
+    width: 500px;
+    height: 30px;
+    margin-left: -190px;
+    border-radius: 5px;
+}
+
+input[type="email"]:hover {
+    box-shadow: 1px 1px 5px orange;
+    border-color: orange;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    margin-left: -195px;
+    width: 500px;
+    height: 40px;
+    background: orange;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.text-politica {
+    margin-left: -290px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.link-ajuda {
+    margin-left: -553px;
+    margin-bottom: 30px;
+}
+
+.text-novo {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.5;
+}
+
+.hr1 {
+    width: 350px;
+    margin-left: 21%;
+    margin-top: -33px;
+}
+
+.hr2 {
+    width: 350px;
+    margin-left: 55%;
+    margin-top: -10px;
+}
+
+.hr1::before, .hr2::after {
+    content: '';
+    display: table;
+}
+
+.hr2::after {
+    clear: both;
+}
+
+button {
+    width: 500px;
+    height: 50px;
+    background: #e3e3e3;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 17px;
+}
